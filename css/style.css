@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+
+#chatbox-external {
+  /* padding: 20px; */
+  border-radius: 10px;
+}
+
+#chatbox {
+  height: 350px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+
+#loginform {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* to center align components */
+.align-center {
+  margin: 0 auto;
+  display: block;
+}
+
+#message span {
+  float: right;
+}
+
+.btn-primary {
+  background-color: #00adb5;
+  border: 0;
+}
+
+small {
+  font-size: 0.5rem;
+}

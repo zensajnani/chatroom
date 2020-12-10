@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Zen Chat</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center">
+        <br>
+        <h1>Zen Chat</h1>
+        
+        <div class="container border p-2 p-md-4" id="loginform">
+            <form action="index.php" method="post" class="">
+                <p>Please enter your name to start sending messages:</p>
+                <label for="name">Name:  </label>
+                <input type="text" name="name" id="name" class="form-control"/>
+                <br>
+                <input type="submit" name="enter" id="enter" value="Enter" class="btn btn-primary btn-block"/>
+            </form>
+            </div>
+            <div class="border mt-2 mt-md-5 p-2 p-md-4" id="chatbox-external">
+                <div id="chatbox-menu">
+                    <p>Message, <b></b></p>
+                </div>
+                    
+                    <div class="border" id="chatbox"></div>
+                    <br>
+
+                    <form name="message" >
+                        <input name="userMessage" id="userMessage" type="text" size="100" class="form-control" placeholder="Enter your Message" >
+                        <br>
+                        <input name="sendMessage" id="sendMessage" type="submit" value="Send" class="btn btn-primary btn-block" >
+                    </form>
+
+                </div>
+            </div>
+            <br><br>
+            <form method="post" class="mx-auto"> 
+                <input type="submit" name="toggleLogin" class="btn btn-primary mx-auto"
+                        value="Toggle Login"/> 
+                  
+                <input type="submit" name="toggleChatbox" class="btn btn-primary"
+                        value="Toggle ChatBox"/> 
+            </form> 
+            <br>
+
+            <!-- Logout Button -->
+            <form> 
+                <input type="button" value="Logout" name="logout" class="btn btn-danger align-center">
+            </form> 
+            <br>
+            <button name="logout2" id="logout2" class="btn btn-danger align-center">Logout 2</button>
+        <br><br>
+
+            <div id='message'>
+                <span><small>(12:28 PM)</small></span>
+                <b>Zen</b>: aaaa<br>
+            </div>
+            
+            <div id='message'>
+                <span><small>(12:28 PM)</small></span>
+                <b>Zen</b>: aaaa<br>
+            </div>
+            
+            <div class='message'>
+                <span><small>(12:28 PM)</small></span>
+                <b>Zen</b>: rkgelkrgerg<br>
+            </div>
+            
+            <div id='message'>
+                <span><small>(12:28 PM)</small></span>
+                <b>Zen</b>: hjdkhfksjhfksw<br>
+            </div>
+            <br><br><br>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        // jQuery Document
+        $(document).ready(function(){
+        });
+        </script>
+</body>
+</html>
