@@ -1,3 +1,4 @@
 # chatroom
 
-[I'm an inline-style link](https://www.google.com)
+Chatroom made with PHP and jQuery.
+[Demo](https://chat.zensajnani.com)
